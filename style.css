@@ -36,10 +36,55 @@
   position: relative;
   font-family: "Times New Roman", Times, serif;  
   color:gray;
+  font-weight: bold
 
 }
+
+.text-p {
+  font-size: 25px
+
+
+}
+#imagesMain {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+#imagesMain img {
+  height: 200px;
+  width: 200px;
+  vertical-align: middle;
+}
+
+#imagesCompare {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+#imagesCompare img {
+  height: 500px;
+  width: 600px;
+  vertical-align: middle;
+}
+#imagesSingle {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+#imagesSingle img {
+  vertical-align: middle;
+}
+
 .layout {
-  padding: 10px
+  Background: white;
+  padding: 40px
+  
 }
 .back-gnd {
   background: #ededed;
@@ -50,7 +95,10 @@
 .navigation{
   Background: white;
 }
-
+.images-group{
+  margin: auto;
+  position: relative;
+}
 
 
 /* Change color of dropdown links on hover */
